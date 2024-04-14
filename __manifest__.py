@@ -2,7 +2,7 @@
 
 {
     'name': 'Display the description picking in the picking report',
-    'version': '1.0.1.1',
+    'version': '1.0.1.2',
     'author':'Soft-integration',
     'category': 'Inventory/Inventory',
     'description': "",

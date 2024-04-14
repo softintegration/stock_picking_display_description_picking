@@ -9,5 +9,5 @@ class StockMove(models.Model):
 
 
     def _product_mod_history_trace_module(self):
-        installed = self.env['ir.module.module'].search_count([('name','=',PRODUCT_MOD_HISTORY_TRACE_MODULE),('state','=','installed')]) > 0
+        installed = self.env['ir.module.module'].sudo().search_count([('name','=',PRODUCT_MOD_HISTORY_TRACE_MODULE),('state','=','installed')]) > 0
         return installed
